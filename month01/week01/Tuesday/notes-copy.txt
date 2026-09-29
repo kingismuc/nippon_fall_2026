@@ -1,0 +1,3 @@
+Tuesday Bash practice
+I can read files with cat
+I can copy and rename safely
