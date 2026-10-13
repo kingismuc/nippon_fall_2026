@@ -1,0 +1,4 @@
+# Ignore DrRacket/Emacs backup and auto-save files
+*~
+#*#
+
