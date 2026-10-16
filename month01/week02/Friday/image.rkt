@@ -5,12 +5,7 @@
 ;; оноо 60 ба түүнээс дээш бол ногоон тойрог, үгүй бол улаан (радиус 20)
 
 (require 2htdp/image)
-(define (pass-or-fail score)
-    (if (>= score 60)
-      "green"
-      "red"))
-(define (pass-fail-badge score)
-  (circle 20 "solid" (pass-or-fail score)))
+(	
 
 (check-expect (pass-fail-badge 60) (circle 20 "solid" "green"))
 (check-expect (pass-fail-badge 59) (circle 20 "solid" "red"))

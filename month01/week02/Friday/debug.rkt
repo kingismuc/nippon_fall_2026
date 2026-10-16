@@ -1,6 +1,6 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-beginner-reader.ss" "lang")((modname debug) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname debug) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t /Users/nippon/Desktop/nippon_fall_2026/month01/week02/Friday/image.rktconstructor repeating-decimal #f #t none #f () #f)))
 ;; ---- Пүрэвийн төсөл: жишээ шийдэл ----
 (define (sum3 a b c) (+ a b c))
 (define (average3 a b c) (/ (sum3 a b c) 3))
