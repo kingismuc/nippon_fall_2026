@@ -21,9 +21,9 @@ void check_double(double actual, double expected) {
 int sum_digit(int n)
 {
     int sum = 0;
-    while(n >= 0){
-       sum + (n % 10);
-       n / 10; 
+    while(n > 0){
+       sum = sum + (n % 10);
+       n = n / 10; 
     }
     return sum;
 }
@@ -37,10 +37,10 @@ int count_digits(int n)
         n = -n;
     }
     int count = 0;
-    while(n >= 0)
+    while(n > 0)
     {
-        n / 10;
-        count++;
+        n = n / 10;
+        count = count + 1;
     }   
     return count;
 }
@@ -52,10 +52,11 @@ int reverse_number(int n)
 {   
     int sum = 0;
 
-    while (n >= 0)
+    while (n > 0)
     {
-        int digit = n % 10; 
-        sum = (sum + n) * 10;
+        int digit = 0;
+        digit = n % 10;
+        sum = sum * 10 + digit;
         n = n / 10;
     }
     return sum;
@@ -84,16 +85,17 @@ int gcd(int n , int n2)
     }
     return n;
 }
+
 int is_perfect(int n)
 {
-    for (int i = 0; i < n; i++)
+    int sum = 0;
+    for (int i = 1; i < n;   i++)
     {
-        int sum = 0;
-        if (n % i = 0){
+        if (n % i == 0){
             sum = sum + i;
         }
     }
-    if (sum = n)
+    if (sum == n)
     {
         return 1;
     }
@@ -101,6 +103,8 @@ int is_perfect(int n)
         return 0;
     }
 }
+
+
 
 
 int main(void)
