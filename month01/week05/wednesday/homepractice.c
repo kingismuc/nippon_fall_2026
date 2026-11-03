@@ -95,16 +95,15 @@ int is_perfect(int n)
             sum = sum + i;
         }
     }
-    if (sum == n)
-    {
-        return 1;
-    }
-    else {
-        return 0;
-    }
+    return sum == n;
 }
 
 
+int tens_digit(int n)
+{
+    int a = n / 10 ;
+    return a % 10;
+}
 
 
 int main(void)
@@ -128,6 +127,17 @@ int main(void)
     check_int(is_perfect(6), 1);
     check_int(is_perfect(28), 1);
     check_int(is_perfect(12), 0);
+    check_int(tens_digit(1234), 3);
+    check_int(tens_digit(57), 5);
+    check_int(tens_digit(7), 0);
+int cnt = 0;
+for (int i = 1; i < 4; ++i){
+  for (int j = 1; j < i; ++j){
+    cnt = cnt + 1;
+  }
+}
+printf("%d\n", cnt);
+return 0;
 }
 
 
