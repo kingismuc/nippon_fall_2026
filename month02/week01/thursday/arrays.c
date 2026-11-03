@@ -1,5 +1,24 @@
 #include <stdio.h>
 
+/* check_int : бүхэл тоо тэнцүү бол PASS (C-ийн check-expect) */
+void check_int(int actual, int expected) {
+    if (actual == expected) {
+        printf("PASS\n");
+    } else {
+        printf("FAIL: %d гарсан, %d хүлээсэн\n", actual, expected);
+    }
+}
+
+/* check_double : зөрүү 0.001-ээс бага бол PASS (L8: double яг биш) */
+void check_double(double actual, double expected) {
+    double diff = actual - expected;
+    if (diff < 0.001 && diff > -0.001) {
+        printf("PASS\n");
+    } else {
+        printf("FAIL: %f гарсан, %f хүлээсэн\n", actual, expected);
+    }
+}
+
 int sumOddto(int n)
 {
     int sum = 0;
@@ -11,6 +30,27 @@ int sumOddto(int n)
         }
     }
     return sum;
+}
+/* is_palindrome_number : int -> int
+   урвуулахад ижил бол 1. Лхагвын reverse_number-ийг дууд. */
+int is_palindrome_number (int n)
+{
+    int place = 0 ;
+    int temp = 0;
+    while (n > 0)
+    {
+        temp = n % 10;
+        place = (temp + place) * 10;
+        n = n / 10;
+    }
+    if (place == n)
+    {
+        return 1;
+    }
+    else {
+        return 0;
+    }
+    
 }
 // (define numbers (cons 3(cons 4 (cons empty))))
 int main(void)
@@ -98,6 +138,9 @@ int main(void)
     /// /* sumOddTo : int -> int
     // 1-ээс n хүртэлх сондгой тоонуудын нийлбэр 
     printf("%d\n", sumOddto(100));
+    check_int(is_palindrome_number(121), 1);
+    check_int(is_palindrome_number(123), 0);
+    check_int(is_palindrome_number(7), 1);  
     return 0;
 
 
