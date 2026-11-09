@@ -97,4 +97,5 @@ check_double(average_final(group, 4), 72.4);
 for (int i = 0; i < 4; ++i){
     print_student(group[i]);
     }
+printf("%3d", 7);
 }
