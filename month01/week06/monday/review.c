@@ -139,6 +139,13 @@ int square(int x)
 
 int main(void)
 {
-printf("%d\n", square(7));
+check_int(count_grade(group, 4, 'A'), 1);
+check_int(count_grade(group, 4, 'F'), 1);
+check_int(count_grade(group, 4, 'C'), 0);
+check_int(second_max(scores, 5), 88);
+check_int(second_max(b, 6), 7);
+check_int(count_in_range(scores, 5, 80, 90), 2);
+check_int(count_in_range(scores, 5, 0, 100), 5);
+
 return 0;
 }
