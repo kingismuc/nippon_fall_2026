@@ -18,6 +18,19 @@ public class Square {
         color = "red";
         isVisible = false;
     }
+    public int getArea(){
+        return size * size;
+    }
+    public void Grow()
+    {
+        size += 15;
+        draw();   
+    }
+
+    public void Shrink(){
+        size -= 15;
+        draw();
+    }
 
     /** Квадратыг харагддаг болгоно. */
     public void makeVisible() {

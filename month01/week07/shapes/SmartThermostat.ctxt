@@ -1,0 +1,13 @@
+#BlueJ class context
+#Tue Nov 17 17:38:35 ULAT 2026
+comment0.target=SmartThermostat
+comment0.text=\n Write a description of class SmartThermostat here.\n\n @author (your name)\n @version (a version number or a date)\n
+comment1.params=room_Name
+comment1.target=SmartThermostat(java.lang.String)
+comment2.target=void toggleEcoMode()
+comment3.params=newTarget
+comment3.target=void setTargetTemp(double)
+comment4.target=java.lang.String runCycle()
+comment5.params=ratePerKwh
+comment5.target=double getElectricityBill(double)
+numComments=6

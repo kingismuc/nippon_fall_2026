@@ -1,0 +1,13 @@
+#BlueJ class context
+#Tue Nov 17 17:54:42 ULAT 2026
+comment0.target=RiderShareTrip
+comment0.text=\n Write a description of class RiderShareTrip here.\n\n @author (your name)\n @version (a version number or a date)\n
+comment1.params=driver_name isSurge_Pricing
+comment1.target=RiderShareTrip(java.lang.String, boolean)
+comment2.params=code
+comment2.target=void applyPromoCode(java.lang.String)
+comment3.target=void startTrip()
+comment4.params=km
+comment4.target=void driverDistance(double)
+comment5.target=double finishAndPay()
+numComments=6

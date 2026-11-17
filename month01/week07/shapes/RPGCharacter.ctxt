@@ -1,0 +1,12 @@
+#BlueJ class context
+#Tue Nov 17 17:25:00 ULAT 2026
+comment0.target=RPGCharacter
+comment0.text=\n Write a description of class RPGCharacter here.\n\n @author (your name)\n @version (a version number or a date)\n
+comment1.params=charName
+comment1.target=RPGCharacter(java.lang.String)
+comment2.params=damage
+comment2.target=void recieveDamage(int)
+comment3.params=enemy
+comment3.target=void attack(RPGCharacter)
+comment4.target=void castHeal()
+numComments=5

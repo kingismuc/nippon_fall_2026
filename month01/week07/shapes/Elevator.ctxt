@@ -1,0 +1,12 @@
+#BlueJ class context
+#Tue Nov 17 15:33:10 ULAT 2026
+comment0.target=Elevator
+comment0.text=\n Write a description of class Elevator here.\n\n @author (your name)\n @version (a version number or a date)\n
+comment1.target=Elevator()
+comment2.params=floors
+comment2.target=void goUp(int)
+comment3.params=floors
+comment3.target=void goDown(int)
+comment4.target=int getCurrentFloor()
+comment5.target=java.lang.String getStatus()
+numComments=6

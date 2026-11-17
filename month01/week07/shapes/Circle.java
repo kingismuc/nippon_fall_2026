@@ -9,6 +9,7 @@ public class Circle {
     private int yPosition;
     private String color;
     private boolean isVisible;
+    private int radius;
 
     /** Шинэ тойрог: диаметр 60, байрлал (20, 60), цэнхэр. */
     public Circle() {
@@ -17,8 +18,11 @@ public class Circle {
         yPosition = 60;
         color = "blue";
         isVisible = false;
+        radius = diameter / 2;
     }
-
+    public double getArea(){
+        return 3.14159 * radius * radius;
+    }
     /** Тойргийг харагддаг болгоно. */
     public void makeVisible() {
         isVisible = true;

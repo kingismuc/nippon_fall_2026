@@ -1,0 +1,13 @@
+#BlueJ class context
+#Tue Nov 17 16:45:41 ULAT 2026
+comment0.target=BankAccount
+comment0.text=\n Write a description of class BankAccount here.\n\n @author (your name)\n @version (a version number or a date)\n
+comment1.params=ownerName pinCode balanceLeft
+comment1.target=BankAccount(java.lang.String, int, double)
+comment2.params=amount
+comment2.target=void deposit(double)
+comment3.params=enteredPin amount
+comment3.target=void withdraw(int, double)
+comment4.params=masterCode
+comment4.target=void unlockAccount(int)
+numComments=5

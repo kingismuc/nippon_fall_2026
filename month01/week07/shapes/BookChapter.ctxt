@@ -1,0 +1,12 @@
+#BlueJ class context
+#Tue Nov 17 16:19:57 ULAT 2026
+comment0.target=BookChapter
+comment0.text=\n Write a description of class BookChapter here.\n\n @author (your name)\n @version (a version number or a date)\n
+comment1.params=title pages
+comment1.target=BookChapter(java.lang.String, int)
+comment2.params=count
+comment2.target=void readPages(int)
+comment3.target=int getPagesLeft()
+comment4.params=minutesPerPage
+comment4.target=double estimateMinutesToFinish(double)
+numComments=5
