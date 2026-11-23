@@ -1,0 +1,10 @@
+#BlueJ class context
+#Mon Nov 23 17:27:14 ULAT 2026
+comment0.target=ParkingMeter
+comment0.text=\n Write a description of class ParkingMeter here.\n\n @author (your name)\n @version (a version number or a date)\n
+comment1.target=ParkingMeter()
+comment2.target=int getMinutes()
+comment3.params=mins
+comment3.target=void addTime(int)
+comment4.target=void tick()
+numComments=5

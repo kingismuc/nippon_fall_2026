@@ -9,7 +9,7 @@ public class Triangle {
     private int width;
     private int xPosition;
     private int yPosition;
-    private String color;
+  
     private boolean isVisible;
 
     /** Шинэ гурвалжин: өндөр 60, суурь 70, орой (210, 140), ногоон. */
@@ -18,7 +18,7 @@ public class Triangle {
         width = 70;
         xPosition = 210;
         yPosition = 140;
-        color = "green";
+  
         isVisible = false;
     }
     
@@ -98,7 +98,7 @@ public class Triangle {
 
     /** Өнгийг солино: "red", "blue", "green", "yellow", "black", ... */
     public void changeColor(String newColor) {
-        color = newColor;
+        
         draw();
     }
 

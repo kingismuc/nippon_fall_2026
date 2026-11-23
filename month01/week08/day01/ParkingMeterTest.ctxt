@@ -1,0 +1,7 @@
+#BlueJ class context
+#Mon Nov 23 17:27:38 ULAT 2026
+comment0.target=ParkingMeterTest
+comment0.text=\n The test class ParkingMeterTest.\n\n @author  (your name)\n @version (a version number or a date)\n
+comment1.target=void minuteAndtick()
+comment2.target=void testTick()
+numComments=3

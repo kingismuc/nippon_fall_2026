@@ -1,0 +1,10 @@
+#BlueJ class context
+#Mon Nov 23 17:32:47 ULAT 2026
+comment0.target=LightBulb
+comment0.text=\n Write a description of class LightBulb here.\n\n @author (your name)\n @version (a version number or a date)\n
+comment1.target=LightBulb()
+comment2.target=boolean isOn()
+comment3.target=int getBrightness()
+comment4.target=void turnOn()
+comment5.target=void turnOff()
+numComments=6
