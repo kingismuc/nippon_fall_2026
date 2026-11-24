@@ -1,0 +1,7 @@
+#BlueJ class context
+#Tue Nov 24 17:43:59 ULAT 2026
+comment0.target=ShoppingCartTest
+comment1.target=void testAddProductsAndTotal()
+comment2.target=void testCartCapacityLimitIs5()
+comment3.target=void testNullProductRejected()
+numComments=4

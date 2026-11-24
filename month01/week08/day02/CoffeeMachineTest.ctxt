@@ -1,0 +1,7 @@
+#BlueJ class context
+#Tue Nov 24 16:02:47 ULAT 2026
+comment0.target=CoffeeMachineTest
+comment1.target=void testMakeEspressoSuccess()
+comment2.target=void testMakeEspressoFailsWhenLowOnBeans()
+comment3.target=void testRefillAllowsMakingMoreCups()
+numComments=4

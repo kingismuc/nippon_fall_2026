@@ -1,0 +1,13 @@
+#BlueJ class context
+#Tue Nov 24 16:02:47 ULAT 2026
+comment0.target=CoffeeMachine
+comment0.text=\n \u0423\u0441 \u0431\u043E\u043B\u043E\u043D \u043A\u043E\u0444\u0435\u043D\u044B \u04AF\u0440\u0438\u0439\u043D \u043D\u04E9\u04E9\u0446\u04E9\u04E9\u0440 \u044D\u0441\u043F\u0440\u0435\u0441\u0441\u043E \u0447\u0430\u043D\u0430\u0445 \u043C\u0430\u0448\u0438\u043D.\n\n @author Khangaikhuu\n
+comment1.params=initialWater initialBeans
+comment1.target=CoffeeMachine(int, int)
+comment2.target=int getWaterMl()
+comment3.target=int getBeansGrams()
+comment4.target=int getCupsMade()
+comment5.params=water beans
+comment5.target=void refill(int, int)
+comment6.target=boolean makeEspresso()
+numComments=7

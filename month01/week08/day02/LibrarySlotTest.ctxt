@@ -1,0 +1,7 @@
+#BlueJ class context
+#Tue Nov 24 17:13:40 ULAT 2026
+comment0.target=LibrarySlotTest
+comment1.target=void testLendBookSuccess()
+comment2.target=void testCannotLendAlreadyBorrowedBook()
+comment3.target=void testReturnBookAllowsNextBorrower()
+numComments=4

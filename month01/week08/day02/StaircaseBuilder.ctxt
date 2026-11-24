@@ -1,0 +1,7 @@
+#BlueJ class context
+#Tue Nov 24 17:06:46 ULAT 2026
+comment0.target=StaircaseBuilder
+comment0.text=\n Write a description of class StaircaseBuilder here.\n\n @author (your name)\n @version (a version number or a date)\n
+comment1.params=steps
+comment1.target=void buildStairs(int)
+numComments=2

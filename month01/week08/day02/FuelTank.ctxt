@@ -1,0 +1,12 @@
+#BlueJ class context
+#Tue Nov 24 16:14:38 ULAT 2026
+comment0.target=FuelTank
+comment0.text=\n \u0410\u0432\u0442\u043E\u043C\u0430\u0448\u0438\u043D\u044B \u0448\u0430\u0442\u0430\u0445\u0443\u0443\u043D\u044B \u0441\u0430\u0432 \u0431\u0430 \u0442\u0443\u0443\u043B\u0430\u0445 \u0437\u0430\u043C\u044B\u043D \u0442\u043E\u043E\u0446\u043E\u043E\u043B\u0443\u0443\u0440.\n\n @author Khangaikhuu\n
+comment1.params=capacity efficiency
+comment1.target=FuelTank(double, double)
+comment2.target=double getLiters()
+comment3.params=addedLiters
+comment3.target=void refuel(double)
+comment4.params=distanceKm
+comment4.target=double drive(double)
+numComments=5
